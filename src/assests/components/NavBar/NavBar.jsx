@@ -1,6 +1,6 @@
-import React from 'react'
+import React from 'react';
 
-function NavBar () {
+export function NavBar () {
   return (
     <div>
       <h1>Hello World</h1>
@@ -8,4 +8,3 @@ function NavBar () {
   )
 }
 
-export default NavBar

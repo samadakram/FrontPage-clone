@@ -11,6 +11,8 @@ import ListItemText from '@material-ui/core/ListItemText';
 import InboxIcon from '@material-ui/icons/MoveToInbox';
 import MailIcon from '@material-ui/icons/Mail';
 
+import styles from './NavBar.module.css';
+
 const useStyles = makeStyles({
   list: {
     width: 250,
@@ -67,7 +69,7 @@ export default function NavBar() {
   );
 
   return (
-    <div className="navbar">
+    <div className={styles.navbar}>
       {['right'].map((anchor) => (
         <React.Fragment key={anchor}>
           <Button onClick={toggleDrawer(anchor, true)}>{anchor}</Button>

@@ -71,10 +71,10 @@ export default function NavBar() {
   return (
     <div className={styles.navbar}>
       <Grid container>
-        <Grid item xs={6}>
+        <Grid item xs={6} className={styles.grid1}>
           <h5>Switch Experience</h5>
         </Grid>
-        <Grid item xs={6}>
+        <Grid item xs={6} className={styles.grid2}>
         {['right'].map((anchor) => (
         <React.Fragment key={anchor}>
           <Button onClick={toggleDrawer(anchor, true)}>{anchor}</Button>

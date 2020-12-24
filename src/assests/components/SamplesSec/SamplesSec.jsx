@@ -1,6 +1,7 @@
 import React from 'react';
 import { Grid, Card, CardActionArea, CardActions, CardContent, CardMedia, Typography, Button } from '@material-ui/core';
 import Chatbot from '../../Images/cardImages/chatbot.jpg';
+import Speedpix from '../../Images/cardImages/speedpix.jpg';
 
 export const SamplesSec = () => {
     return (
@@ -49,7 +50,7 @@ export const SamplesSec = () => {
                                         component="img"
                                         alt="Contemplative Reptile"
                                         height="140"
-                                        image="/static/images/cards/contemplative-reptile.jpg"
+                                        image={Speedpix}
                                         title="Contemplative Reptile"
                                     />
                                     <CardContent>

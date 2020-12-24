@@ -1,4 +1,5 @@
 import React from 'react';
+import styles from './SamplesSec.module.css';
 import { Grid, Card, CardActionArea, CardActions, CardContent, CardMedia, Typography, Button } from '@material-ui/core';
 import Chatbot from '../../Images/cardImages/chatbot.jpg';
 import Speedpix from '../../Images/cardImages/speedpix.jpg';
@@ -15,7 +16,7 @@ export const SamplesSec = () => {
                 <Grid item xs={12}>
                     <Grid container spacing={3}>
                         <Grid item xs={12} md={4}>
-                            <Card>
+                            <Card className={styles.cards}>
                                 <CardActionArea>
                                     <CardMedia
                                         component="img"
@@ -41,7 +42,7 @@ export const SamplesSec = () => {
                             </Card>
                         </Grid>
                         <Grid item xs={12} md={4}>
-                            <Card>
+                            <Card className={styles.cards}>
                                 <CardActionArea>
                                     <CardMedia
                                         component="img"
@@ -67,7 +68,7 @@ export const SamplesSec = () => {
                             </Card>
                         </Grid>
                         <Grid item xs={12} md={4}>
-                            <Card>
+                            <Card className={styles.cards}>
                                 <CardActionArea>
                                     <CardMedia
                                         component="img"

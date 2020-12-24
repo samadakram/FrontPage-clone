@@ -13,7 +13,7 @@ export const SamplesSec = () => {
                     <h3>Useful UX</h3>
                 </Grid>
                 <Grid item xs={12}>
-                    <Grid container>
+                    <Grid container spacing={3}>
                         <Grid item xs={12} md={4}>
                             <Card>
                                 <CardActionArea>

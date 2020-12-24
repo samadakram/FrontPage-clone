@@ -12,8 +12,8 @@ import Sample from '../../Images/cardImages/sample5.jpg';
 
 export const SamplesSec = () => {
     return (
-        <div>
-            <h1>Samples</h1>
+        <div className={styles.container}>
+            <Typography variant="h4" className={styles.sampleHead}>Samples</Typography>
             <Grid container>
                 <Grid item xs={12}>
                     <h3>Useful UX</h3>

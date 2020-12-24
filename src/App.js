@@ -5,6 +5,7 @@ import styles from './App.module.css';
 import NavBar from './assests/components/NavBar/NavBar';
 import {MainSection} from './assests/components/MainSection/MainSection';
 import {ServicesSection} from './assests/components/ServicesSection/ServicesSection';
+import {SamplesSec} from './assests/components/SamplesSec/SamplesSec';
 
 function App () {
   return (
@@ -12,6 +13,7 @@ function App () {
       <NavBar />
       <MainSection />
       <ServicesSection />
+      <SamplesSec />
     </div>
   )
 }

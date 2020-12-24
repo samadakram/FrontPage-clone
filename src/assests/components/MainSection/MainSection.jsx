@@ -22,7 +22,7 @@ export const MainSection = () => {
                 <Grid item xs={12} md={7} className={styles.gridImage}>
                     <img src={Factory} alt="factory" className="factoryImage"/>
                     <img src={Layer} alt="layer" className={styles.layer}/>
-                    <img src={Brain} alt="Brain"/>
+                    <img src={Brain} alt="Brain" className={styles.Brain}/>
                 </Grid>
             </Grid>
         </div>

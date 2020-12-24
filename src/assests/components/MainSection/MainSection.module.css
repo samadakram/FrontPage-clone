@@ -4,8 +4,15 @@
 
 .gridImage {
     border: 1px solid brown;
+    position: relative;
 }
 
 .factoryImage {
     width: 100%;
+}
+
+.layer {
+    position: absolute;
+    top: 0;
+    left: 0px;
 }

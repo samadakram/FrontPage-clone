@@ -7,7 +7,7 @@ import {MainSection} from './assests/components/MainSection/MainSection';
 
 function App () {
   return (
-    <div>
+    <div className={styles.mainContainer}>
       <NavBar />
       <MainSection />
     </div>

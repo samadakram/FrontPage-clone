@@ -14,8 +14,8 @@ export const SamplesSec = () => {
                     <h3>Useful UX</h3>
                 </Grid>
                 <Grid item xs={12}>
-                    <Grid container spacing={3}>
-                        <Grid item xs={12} md={4}>
+                    <Grid container className={styles.uxGrid}>
+                        <Grid item xs={12} md={4} className={styles.cardGrid}>
                             <Card className={styles.cards}>
                                 <CardActionArea>
                                     <CardMedia
@@ -41,7 +41,7 @@ export const SamplesSec = () => {
                                 </CardActions>
                             </Card>
                         </Grid>
-                        <Grid item xs={12} md={4}>
+                        <Grid item xs={12} md={4} className={styles.cardGrid}>
                             <Card className={styles.cards}>
                                 <CardActionArea>
                                     <CardMedia
@@ -67,7 +67,7 @@ export const SamplesSec = () => {
                                 </CardActions>
                             </Card>
                         </Grid>
-                        <Grid item xs={12} md={4}>
+                        <Grid item xs={12} md={4} className={styles.cardGrid}>
                             <Card className={styles.cards}>
                                 <CardActionArea>
                                     <CardMedia

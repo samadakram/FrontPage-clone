@@ -4,6 +4,10 @@
 .gridText {
     border: 1px solid yellow;
     color: white;
+    padding-left: 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .gridImage {
@@ -25,4 +29,8 @@
     position: absolute;
     top: 0px;
     left: 0px;
+}
+
+.button {
+    background: linear-gradient(to bottom, #23ffdb, #1b5dbf);;
 }

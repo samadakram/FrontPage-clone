@@ -9,7 +9,7 @@ import ContentWrite from '../../Images/servicesImages/services3.svg';
 
 export const ServicesSection = () => {
     return (
-        <div>
+        <div className={styles.container}>
             <Grid container>
                 <Grid item xs={12} className={styles.grid}>
                     <Grid container>
@@ -19,7 +19,7 @@ export const ServicesSection = () => {
                         <Grid item xs={12} md={6}>
                             <h2>UX Writing</h2>
                             <p>I develop clear and useful text in product interfaces to help users reach a specific goal, whether that's completing a form or tapping a button. This includes every type of content from on-screen help systems, user onboarding and in-app messages to push notifications and tooltips.</p>
-                            <ul>
+                            <ul className={styles.list}>
                                 <li>Microcopy</li>
                                 <li>Taxonomy & Labeling</li>
                                 <li>Chatbots</li>

@@ -10,9 +10,6 @@ export const Email = () => {
                         Pick my brain/cortex and let's get<br/> started on your project
                     </Typography>
                 </Grid>
-                <Grid item xs={12}>
-                    
-                </Grid>
             </Grid>
         </div>
     );

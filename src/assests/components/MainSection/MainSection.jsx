@@ -1,5 +1,5 @@
 import React from 'react';
-import { Grid } from '@material-ui/core';
+import { Grid, Typography, Button } from '@material-ui/core';
 import styles from './MainSection.module.css';
 
 // Import Images
@@ -11,13 +11,13 @@ import Brain from '../../Images/Brain.svg';
 
 export const MainSection = () => {
     return (
-        <div>
+        <div className={styles.container}>
             <Grid container>
                 <Grid item xs={12} md={5} className={styles.gridText}>
-                    <h2>CORTEX</h2>
-                    <h2>COPYWRITER</h2>
-                    <p>Enhance your communications with psychology-based copywriting and UX writing</p>
-                    <button>Send message</button>
+                    <Typography variant="h2">CORTEX</Typography>
+                    <Typography variant="h2">COPYWRITER</Typography>
+                    <Typography variant="body1">Enhance your communications with psychology-based copywriting and UX writing</Typography>
+                    <Button variant="contained">Send message</Button>
                 </Grid>
                 <Grid item xs={12} md={7} className={styles.gridImage}>
                     <img src={Factory} alt="factory" className="factoryImage"/>

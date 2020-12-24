@@ -2,7 +2,7 @@ import React from 'react';
 import clsx from 'clsx';
 import { makeStyles } from '@material-ui/core/styles';
 import SwipeableDrawer from '@material-ui/core/SwipeableDrawer';
-import {Button, Grid} from '@material-ui/core';
+import { Button, Grid } from '@material-ui/core';
 import List from '@material-ui/core/List';
 import Divider from '@material-ui/core/Divider';
 import ListItem from '@material-ui/core/ListItem';
@@ -70,7 +70,12 @@ export default function NavBar() {
 
   return (
     <div className={styles.navbar}>
-      {['right'].map((anchor) => (
+      <Grid container>
+        <Grid item>
+          <h5>Switch Experience</h5>
+        </Grid>
+        <Grid item>
+        {['right'].map((anchor) => (
         <React.Fragment key={anchor}>
           <Button onClick={toggleDrawer(anchor, true)}>{anchor}</Button>
           <SwipeableDrawer
@@ -83,6 +88,8 @@ export default function NavBar() {
           </SwipeableDrawer>
         </React.Fragment>
       ))}
+        </Grid>
+      </Grid>
     </div>
   );
 }

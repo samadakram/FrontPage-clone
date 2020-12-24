@@ -178,7 +178,7 @@ export const SamplesSec = () => {
                                 </CardActions>
                             </Card>
                         </Grid>
-                        <Grid item xs={12} sm={6} md={4} className={styles.cardGrid}>
+                        <Grid item xs={12} sm={6} md={6} className={styles.cardGrid}>
                             <Card className={styles.cards}>
                                 <CardActionArea>
                                     <CardMedia
@@ -204,7 +204,7 @@ export const SamplesSec = () => {
                                 </CardActions>
                             </Card>
                         </Grid>
-                        <Grid item xs={12} sm={12} md={4} className={styles.cardGrid}>
+                        <Grid item xs={12} sm={12} md={6} className={styles.cardGrid}>
                             <Card className={styles.cards}>
                                 <CardActionArea>
                                     <CardMedia

@@ -1,4 +1,5 @@
 import React from 'react';
+import styles from './Reviews.module.css';
 import { Grid } from '@material-ui/core';
 
 // Import Images
@@ -16,7 +17,7 @@ export const Reviews = () => {
                 <Grid item xs={12}>
                     <Grid container>
                         <Grid item xs={12} md={6}>
-                            <div>
+                            <div className={styles.reviewDiv}>
                                 <div>
                                     <img src={Image1} alt="image 1" />
                                 </div>

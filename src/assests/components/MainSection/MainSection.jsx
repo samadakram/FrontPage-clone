@@ -1,7 +1,12 @@
 import React from 'react';
 import { Grid } from '@material-ui/core';
-import Factory from '../../Images/ImageEmpty.svg';
 import styles from './MainSection.module.css';
+
+// Import Images
+import Factory from '../../Images/ImageEmpty.svg';
+import Layer from '../../Images/Layer.svg';
+
+
 
 export const MainSection = () => {
     return (
@@ -15,6 +20,7 @@ export const MainSection = () => {
                 </Grid>
                 <Grid item md={7} className={styles.gridImage}>
                     <img src={Factory} alt="factory" className="factoryImage"/>
+                    <img src={Layer} alt="layer"/>
                 </Grid>
             </Grid>
         </div>

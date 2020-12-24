@@ -1,3 +1,8 @@
+.container {
+    background: linear-gradient(to right, #570091, #7522b6);
+    padding: 100px 0 100px 0    ;
+}
+
 .reviewDiv {
     border: 1px solid black;
     width: 400px;
@@ -11,10 +16,23 @@
 
 .reviewSec {
     border: 1px solid blueviolet;
+    margin-top: 20px !important;
     display: flex;
     justify-content: center;
 }
 
 .image {
     width: 100%;
+}
+
+.imageDiv {
+    width: 30%;
+    background-color: rgba(255,255,255,0.4);
+}
+
+.textDiv {
+    background-color: rgba(255,255,255,0.9);
+    width: 70%;
+    color: black;
+    padding: 10px 0 10px 10px;
 }

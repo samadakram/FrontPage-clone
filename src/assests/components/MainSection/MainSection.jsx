@@ -20,7 +20,7 @@ export const MainSection = () => {
                 </Grid>
                 <Grid item md={7} className={styles.gridImage}>
                     <img src={Factory} alt="factory" className="factoryImage"/>
-                    <img src={Layer} alt="layer"/>
+                    <img src={Layer} alt="layer" className={styles.layer}/>
                 </Grid>
             </Grid>
         </div>

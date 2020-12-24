@@ -25,6 +25,9 @@ const useStyles = makeStyles({
 export default function NavBar() {
   const classes = useStyles();
   const [state, setState] = React.useState({
+    top: false,
+    left: false,
+    bottom: false,
     right: false,
   });
 
@@ -72,9 +75,9 @@ export default function NavBar() {
           <Typography variant="body1">Switch Experience</Typography>
         </Grid>
         <Grid item xs={4} className={styles.grid2}>
-        {['right'].map((anchor) => (
+        {['☰'].map((anchor) => (
         <React.Fragment key={anchor}>
-          <Button onClick={toggleDrawer(anchor, true)}>{anchor}</Button>
+          <Button className={styles.hamburger} onClick={toggleDrawer(anchor, true)}>{anchor}</Button>
           <SwipeableDrawer
             anchor={anchor}
             open={state[anchor]}

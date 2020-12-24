@@ -11,9 +11,9 @@ export const SamplesSec = () => {
                 </Grid>
                 <Grid item xs={12}>
                     <Grid container>
-                        <Grid item md={4}>CARD 1</Grid>
-                        <Grid item md={4}>CARD 2</Grid>
-                        <Grid item md={4}>CARD 3</Grid>
+                        <Grid item xs={12} md={4}>CARD 1</Grid>
+                        <Grid item xs={12} md={4}>CARD 2</Grid>
+                        <Grid item xs={12} md={4}>CARD 3</Grid>
                     </Grid>
                 </Grid>
             </Grid>

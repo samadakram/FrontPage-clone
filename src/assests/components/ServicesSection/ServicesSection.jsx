@@ -13,10 +13,10 @@ export const ServicesSection = () => {
             <Grid container>
                 <Grid item xs={12} className={styles.grid}>
                     <Grid container>
-                        <Grid item md={6}>
+                        <Grid item xs={12} md={6}>
                             <img src={UX} alt="UX writing" />
                         </Grid>
-                        <Grid item md={6}>
+                        <Grid item xs={12} md={6}>
                             <h2>UX Writing</h2>
                             <p>I develop clear and useful text in product interfaces to help users reach a specific goal, whether that's completing a form or tapping a button. This includes every type of content from on-screen help systems, user onboarding and in-app messages to push notifications and tooltips.</p>
                             <ul>
@@ -34,7 +34,7 @@ export const ServicesSection = () => {
                 </Grid>
                 <Grid item xs={12} className={styles.grid}>
                     <Grid container>
-                        <Grid item md={6}>
+                        <Grid item xs={12} md={6}>
                             <h2>Website Copywriting</h2>
                             <p>Your website is a dialogue with your audience. I capture the essence of your business and communicate it clearly. Carefully considered writing and SEO best practices allow me to craft the perfect user journey online. Let me draw the map that guides users every step of the way from discovery, to consideration, to conversion.</p>
                             <ul>
@@ -48,17 +48,17 @@ export const ServicesSection = () => {
                                 <li>Sales Letter</li>
                             </ul>
                         </Grid>
-                        <Grid item md={6}>
+                        <Grid item xs={12} md={6}>
                             <img src={WebCopy} alt="Website copy Writing" />
                         </Grid>
                     </Grid>
                 </Grid>
                 <Grid item xs={12} className={styles.grid}>
                     <Grid container>
-                        <Grid item md={6}>
+                        <Grid item xs={12} md={6}>
                             <img src={ContentWrite} alt="Content Writing" />
                         </Grid>
-                        <Grid item md={6}>
+                        <Grid item xs={12} md={6}>
                             <h2>Content Writing</h2>
                             <p>Give your business a competitive edge with powerful content that can be targeted to any segment of your audience. No matter how large or complex your project, my custom-built solutions including articles, eDMs, and case studies will help you implement a plan that maximizes your business’s online exposure.</p>
                             <ul>

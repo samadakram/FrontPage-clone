@@ -15,7 +15,7 @@ export const Reviews = () => {
         <div>
             <Grid container>
                 <Grid item xs={12}>
-                    <Grid container>
+                    <Grid container className={styles.imageGrid}>
                         <Grid item xs={12} md={6}>
                             <div className={styles.reviewDiv}>
                                 <div>
@@ -43,7 +43,7 @@ export const Reviews = () => {
                     </Grid>
                 </Grid>
                 <Grid item xs={12}>
-                <Grid container>
+                <Grid container className={styles.imageGrid}>
                         <Grid item xs={12} md={6}>
                             <div className={styles.reviewDiv}>
                                 <div>
@@ -71,7 +71,7 @@ export const Reviews = () => {
                     </Grid>
                 </Grid>
                 <Grid item xs={12}>
-                <Grid container>
+                <Grid container className={styles.imageGrid}>
                         <Grid item xs={12} md={6}>
                             <div className={styles.reviewDiv}>
                                 <div>

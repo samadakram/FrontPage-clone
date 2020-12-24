@@ -1,6 +1,22 @@
+.container {
+    background: linear-gradient(to right, #860091, #662975);
+    padding-top: 80px;
+}
+
 .uxGrid {
     border: 1px solid brown;
     margin: auto;
+}
+
+.sampleHead {
+    text-align: center;
+    color: white;
+    width: 200px;
+    margin: auto !important ;
+    font-weight: 300 !important;
+    padding: 5px 0 5px 0;
+    background-color: rgba(0,0,0,0.1);
+    box-shadow: 1px 16px 20px rgba(0, 0, 0, 0.17);
 }
 
 .cards {

@@ -1,5 +1,9 @@
+.container {
+    background: radial-gradient(circle, rgba(206,2,189,1) 0%, rgba(75,6,193,1) 70%);;
+}
 .gridText {
     border: 1px solid yellow;
+    color: white;
 }
 
 .gridImage {

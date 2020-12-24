@@ -1,0 +1,10 @@
+.reviewDiv {
+    border: 1px solid black;
+    width: 400px;
+    display: flex;
+    flex-direction: row;
+}
+
+.image {
+    width: 100%;
+}

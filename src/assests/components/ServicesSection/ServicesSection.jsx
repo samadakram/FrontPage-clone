@@ -22,21 +22,18 @@ export const ServicesSection = () => {
                             <ul>
                                 <li>Microcopy</li>
                                 <li>Taxonomy & Labeling</li>
-                                <li>Chatbots</li>                               
+                                <li>Chatbots</li>
                                 <li>User Research</li>
                                 <li>Content Style Guide</li>
                                 <li>User Testing</li>
                                 <li>Design Principles</li>
-                                <li>Prototype</li>                                 
+                                <li>Prototype</li>
                             </ul>
                         </Grid>
                     </Grid>
                 </Grid>
                 <Grid item xs={12} className={styles.grid}>
                     <Grid container>
-                        <Grid item md={6}>
-                            <img src={WebCopy} alt="Website copy Writing" />
-                        </Grid>
                         <Grid item md={6}>
                             <h2>Website Copywriting</h2>
                             <p>Your website is a dialogue with your audience. I capture the essence of your business and communicate it clearly. Carefully considered writing and SEO best practices allow me to craft the perfect user journey online. Let me draw the map that guides users every step of the way from discovery, to consideration, to conversion.</p>
@@ -50,6 +47,9 @@ export const ServicesSection = () => {
                                 <li>Landing Page</li>
                                 <li>Sales Letter</li>
                             </ul>
+                        </Grid>
+                        <Grid item md={6}>
+                            <img src={WebCopy} alt="Website copy Writing" />
                         </Grid>
                     </Grid>
                 </Grid>

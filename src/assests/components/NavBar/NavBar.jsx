@@ -2,7 +2,7 @@ import React from 'react';
 import clsx from 'clsx';
 import { makeStyles } from '@material-ui/core/styles';
 import SwipeableDrawer from '@material-ui/core/SwipeableDrawer';
-import { Button, Grid } from '@material-ui/core';
+import { Button, Grid, Typography } from '@material-ui/core';
 import List from '@material-ui/core/List';
 import Divider from '@material-ui/core/Divider';
 import ListItem from '@material-ui/core/ListItem';
@@ -72,7 +72,7 @@ export default function NavBar() {
     <div className={styles.navbar}>
       <Grid container>
         <Grid item xs={8} className={styles.grid1}>
-          <h5>Switch Experience</h5>
+          <Typography variant="body1">Switch Experience</Typography>
         </Grid>
         <Grid item xs={4} className={styles.grid2}>
         {['right'].map((anchor) => (

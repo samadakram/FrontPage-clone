@@ -1,3 +1,13 @@
 .navbar {
     border: 1px solid black;
 }
+
+.grid1 {
+    border: 1px solid red;
+}
+
+.grid2 {
+    border: 1px solid aqua;
+    display: flex;
+    justify-content: flex-end;
+}

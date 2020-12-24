@@ -16,7 +16,7 @@ export const Reviews = () => {
             <Grid container>
                 <Grid item xs={12}>
                     <Grid container className={styles.imageGrid}>
-                        <Grid item xs={12} md={6}>
+                        <Grid item xs={12} md={6} className={styles.reviewSec}>
                             <div className={styles.reviewDiv}>
                                 <div>
                                     <img src={Image1} alt="avatar1" className={styles.image}/>
@@ -28,7 +28,7 @@ export const Reviews = () => {
                                 </div>
                             </div>
                         </Grid>
-                        <Grid item xs={12} md={6}>
+                        <Grid item xs={12} md={6} className={styles.reviewSec}>
                         <div className={styles.reviewDiv}>
                                 <div>
                                     <img src={Image2} alt="avatar2" className={styles.image}/>
@@ -44,7 +44,7 @@ export const Reviews = () => {
                 </Grid>
                 <Grid item xs={12}>
                 <Grid container className={styles.imageGrid}>
-                        <Grid item xs={12} md={6}>
+                        <Grid item xs={12} md={6} className={styles.reviewSec}>
                             <div className={styles.reviewDiv}>
                                 <div>
                                     <img src={Image3} alt="avatar3" className={styles.image}/>
@@ -56,7 +56,7 @@ export const Reviews = () => {
                                 </div>
                             </div>
                         </Grid>
-                        <Grid item xs={12} md={6}>
+                        <Grid item xs={12} md={6} className={styles.reviewSec}>
                         <div className={styles.reviewDiv}>
                                 <div>
                                     <img src={Image4} alt="avatar4" className={styles.image}/>
@@ -72,7 +72,7 @@ export const Reviews = () => {
                 </Grid>
                 <Grid item xs={12}>
                 <Grid container className={styles.imageGrid}>
-                        <Grid item xs={12} md={6}>
+                        <Grid item xs={12} md={6} className={styles.reviewSec}>
                             <div className={styles.reviewDiv}>
                                 <div>
                                     <img src={Image5} alt="avatar5" className={styles.image}/>
@@ -84,7 +84,7 @@ export const Reviews = () => {
                                 </div>
                             </div>
                         </Grid>
-                        <Grid item xs={12} md={6}>
+                        <Grid item xs={12} md={6} className={styles.reviewSec}>
                         <div className={styles.reviewDiv}>
                                 <div>
                                     <img src={Image6} alt="avatar6" className={styles.image}/>

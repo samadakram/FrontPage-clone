@@ -14,7 +14,7 @@ export const MainSection = () => {
                     <button>Send message</button>
                 </Grid>
                 <Grid item md={7} className={styles.gridImage}>
-                    <img src={Factory} alt="factory"/>
+                    <img src={Factory} alt="factory" className="factoryImage"/>
                 </Grid>
             </Grid>
         </div>

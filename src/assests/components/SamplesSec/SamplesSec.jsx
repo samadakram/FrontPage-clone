@@ -16,7 +16,7 @@ export const SamplesSec = () => {
             <Typography variant="h4" className={styles.sampleHead}>Samples</Typography>
             <Grid container>
                 <Grid item xs={12}>
-                    <h3>Useful UX</h3>
+                    <Typography variant="h4" className={styles.usefulHead}>Useful UX</Typography>
                 </Grid>
                 <Grid item xs={12}>
                     <Grid container className={styles.uxGrid}>
@@ -101,7 +101,7 @@ export const SamplesSec = () => {
                     </Grid>
                 </Grid>
                 <Grid item xs={12}>
-                    <h3>Digital Copy</h3>
+                    <Typography variant="h4" className={styles.usefulHead}>Digital Copy</Typography>
                 </Grid>
                 <Grid item xs={12}>
                     <Grid container className={styles.uxGrid}>

@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './Reviews.module.css';
-import { Grid } from '@material-ui/core';
+import { Grid, Typography } from '@material-ui/core';
 
 // Import Images
 import Image1 from '../../Images/reviewImages/pic1.svg';
@@ -12,31 +12,31 @@ import Image6 from '../../Images/reviewImages/pic6.svg';
 
 export const Reviews = () => {
     return (
-        <div>
+        <div className={styles.container}>
             <Grid container>
                 <Grid item xs={12}>
                     <Grid container className={styles.imageGrid}>
                         <Grid item xs={12} md={6} className={styles.reviewSec}>
                             <div className={styles.reviewDiv}>
-                                <div>
+                                <div className={styles.imageDiv}>
                                     <img src={Image1} alt="avatar1" className={styles.image}/>
                                 </div>
-                                <div>
-                                    <h5>Karl Van Lieshout</h5>
-                                    <p>Owner & Operator – Ausbeds</p>
-                                    <h4>"..innovative"<br/>"..seamless UX""<br/>"..more online sales"</h4>
+                                <div className={styles.textDiv}>
+                                    <Typography variant="h6">Karl Van Lieshout</Typography>
+                                    <Typography variant="body2">Owner & Operator – Ausbeds</Typography>
+                                    <Typography variant="h5">"..innovative"<br/>"..seamless UX""<br/>"..more online sales"</Typography>
                                 </div>
                             </div>
                         </Grid>
                         <Grid item xs={12} md={6} className={styles.reviewSec}>
                         <div className={styles.reviewDiv}>
-                                <div>
+                                <div className={styles.imageDiv}>
                                     <img src={Image2} alt="avatar2" className={styles.image}/>
                                 </div>
-                                <div>
-                                    <h5>Rosawin Siri</h5>
-                                    <p>Digital Marketing Manager – 4mation Technologies</p>
-                                    <h4>"..flexible"<br/>"..nailed voice & tone"<br/>"..keep on retainer"</h4>
+                                <div className={styles.textDiv}>
+                                    <Typography variant="h6">Rosawin Siri</Typography>
+                                    <Typography variant="body2">Digital Marketing Manager – 4mation Technologies</Typography>
+                                    <Typography variant="h5">"..flexible"<br/>"..nailed voice & tone"<br/>"..keep on retainer"</Typography>
                                 </div>
                             </div>
                         </Grid>
@@ -46,25 +46,25 @@ export const Reviews = () => {
                 <Grid container className={styles.imageGrid}>
                         <Grid item xs={12} md={6} className={styles.reviewSec}>
                             <div className={styles.reviewDiv}>
-                                <div>
+                                <div className={styles.imageDiv}>
                                     <img src={Image3} alt="avatar3" className={styles.image}/>
                                 </div>
-                                <div>
-                                    <h5>Craig Erskine-Smith</h5>
-                                    <p>CEO – Erskine Oral Care</p>
-                                    <h4>"..wonderful ideas"<br/>"..perfect tagline"<br/>"..excellent wireframes"</h4>
+                                <div className={styles.textDiv}>
+                                    <Typography variant="h6">Craig Erskine-Smith</Typography>
+                                    <Typography variant="body2">CEO – Erskine Oral Care</Typography>
+                                    <Typography variant="h5">"..wonderful ideas"<br/>"..perfect tagline"<br/>"..excellent wireframes"</Typography>
                                 </div>
                             </div>
                         </Grid>
                         <Grid item xs={12} md={6} className={styles.reviewSec}>
                         <div className={styles.reviewDiv}>
-                                <div>
+                                <div className={styles.imageDiv}>
                                     <img src={Image4} alt="avatar4" className={styles.image}/>
                                 </div>
-                                <div>
-                                    <h5>Liam Key</h5>
-                                    <p>Creative Director – Imagination Pioneers Studios</p>
-                                    <h4>"..love his passion"<br/>..heaps of depth"<br/>"..speaks to my brand"</h4>
+                                <div className={styles.textDiv}>
+                                    <Typography variant="h6">Liam Key</Typography>
+                                    <Typography variant="body2">Creative Director – Imagination Pioneers Studios</Typography>
+                                    <Typography variant="h5">"..love his passion"<br/>..heaps of depth"<br/>"..speaks to my brand"</Typography>
                                 </div>
                             </div>
                         </Grid>
@@ -74,25 +74,25 @@ export const Reviews = () => {
                 <Grid container className={styles.imageGrid}>
                         <Grid item xs={12} md={6} className={styles.reviewSec}>
                             <div className={styles.reviewDiv}>
-                                <div>
+                                <div className={styles.imageDiv}>
                                     <img src={Image5} alt="avatar5" className={styles.image}/>
                                 </div>
-                                <div>
-                                    <h5>Eoin Mullins</h5>
-                                    <p>Director – Corbel Technologies</p>
-                                    <h4>"..beautiful copy"<br/>"..psychology edge"<br/>"..emotional currents"</h4>
+                                <div className={styles.textDiv}>
+                                    <Typography variant="h6">Eoin Mullins</Typography>
+                                    <Typography variant="body2">Director – Corbel Technologies</Typography>
+                                    <Typography variant="h5">"..beautiful copy"<br/>"..psychology edge"<br/>"..emotional currents"</Typography>
                                 </div>
                             </div>
                         </Grid>
                         <Grid item xs={12} md={6} className={styles.reviewSec}>
                         <div className={styles.reviewDiv}>
-                                <div>
+                                <div className={styles.imageDiv}>
                                     <img src={Image6} alt="avatar6" className={styles.image}/>
                                 </div>
-                                <div>
-                                    <h5>Adrian Rodriguez Soto</h5>
-                                    <p>eCommerce Manager – EUX Agency</p>
-                                    <h4>"..superior intellect"<br/>"..deep psychology"<br/>"..doubled conversions"</h4>
+                                <div className={styles.textDiv}>
+                                    <Typography variant="h6">Adrian Rodriguez Soto</Typography>
+                                    <Typography variant="body2">eCommerce Manager – EUX Agency</Typography>
+                                    <Typography variant="h5">"..superior intellect"<br/>"..deep psychology"<br/>"..doubled conversions"</Typography>
                                 </div>
                             </div>
                         </Grid>

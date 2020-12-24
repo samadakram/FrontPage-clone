@@ -12,7 +12,7 @@ import Brain from '../../Images/Brain.svg';
 export const MainSection = () => {
     return (
         <div className={styles.container}>
-            <Grid container>
+            <Grid container className={styles.mainGrid}>
                 <Grid item xs={12} md={5} className={styles.gridText}>
                     <Typography variant="h2">CORTEX</Typography>
                     <Typography variant="h2">COPYWRITER</Typography>

@@ -72,22 +72,24 @@ export default function NavBar() {
     <div className={styles.navbar}>
       <Grid container>
         <Grid item xs={8} className={styles.grid1}>
-          <Typography variant="body1">Switch Experience</Typography>
+          <div>
+            <Typography className={styles.head} variant="body1">Switch Experience</Typography>
+          </div>
         </Grid>
         <Grid item xs={4} className={styles.grid2}>
-        {['☰'].map((anchor) => (
-        <React.Fragment key={anchor}>
-          <Button className={styles.hamburger} onClick={toggleDrawer(anchor, true)}>{anchor}</Button>
-          <SwipeableDrawer
-            anchor={anchor}
-            open={state[anchor]}
-            onClose={toggleDrawer(anchor, false)}
-            onOpen={toggleDrawer(anchor, true)}
-          >
-            {list(anchor)}
-          </SwipeableDrawer>
-        </React.Fragment>
-      ))}
+          {['☰'].map((anchor) => (
+            <React.Fragment key={anchor}>
+              <Button className={styles.hamburger} onClick={toggleDrawer(anchor, true)}>{anchor}</Button>
+              <SwipeableDrawer
+                anchor={anchor}
+                open={state[anchor]}
+                onClose={toggleDrawer(anchor, false)}
+                onOpen={toggleDrawer(anchor, true)}
+              >
+                {list(anchor)}
+              </SwipeableDrawer>
+            </React.Fragment>
+          ))}
         </Grid>
       </Grid>
     </div>

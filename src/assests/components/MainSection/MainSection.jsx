@@ -17,7 +17,7 @@ export const MainSection = () => {
                     <Typography variant="h2">CORTEX</Typography>
                     <Typography variant="h2">COPYWRITER</Typography>
                     <Typography variant="body1">Enhance your communications with psychology-based copywriting and UX writing</Typography>
-                    <Button variant="contained">Send message</Button>
+                    <Button variant="contained" className={styles.button}>Send message</Button>
                 </Grid>
                 <Grid item xs={12} md={7} className={styles.gridImage}>
                     <img src={Factory} alt="factory" className="factoryImage"/>

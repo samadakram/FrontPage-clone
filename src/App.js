@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import styles from './App.module.css';
 
 //Import Components
 import NavBar from './assests/components/NavBar/NavBar';

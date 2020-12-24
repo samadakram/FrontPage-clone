@@ -37,7 +37,20 @@ export const ServicesSection = () => {
                         <Grid item md={6}>
                             <img src={WebCopy} alt="Website copy Writing" />
                         </Grid>
-                        <Grid item md={6}>TEXT</Grid>
+                        <Grid item md={6}>
+                            <h2>Website Copywriting</h2>
+                            <p>Your website is a dialogue with your audience. I capture the essence of your business and communicate it clearly. Carefully considered writing and SEO best practices allow me to craft the perfect user journey online. Let me draw the map that guides users every step of the way from discovery, to consideration, to conversion.</p>
+                            <ul>
+                                <li>Information Architecture</li>
+                                <li>Wireframes</li>
+                                <li>Competitor Analysis</li>
+                                <li>On-page SEO</li>
+                                <li>Off-page SEO</li>
+                                <li>USP/UVP</li>
+                                <li>Landing Page</li>
+                                <li>Sales Letter</li>
+                            </ul>
+                        </Grid>
                     </Grid>
                 </Grid>
                 <Grid item xs={12} className={styles.grid}>

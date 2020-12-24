@@ -14,7 +14,28 @@ export const ServicesSection = () => {
                 <Grid item xs={12} className={styles.grid}>
                     <Grid container>
                         <Grid item md={6}>
-                            <img src={UX} alt="UX writing"/>
+                            <img src={UX} alt="UX writing" />
+                        </Grid>
+                        <Grid item md={6}>
+                            <h2>UX Writing</h2>
+                            <p>I develop clear and useful text in product interfaces to help users reach a specific goal, whether that's completing a form or tapping a button. This includes every type of content from on-screen help systems, user onboarding and in-app messages to push notifications and tooltips.</p>
+                            <ul>
+                                <li>Microcopy</li>
+                                <li>Taxonomy & Labeling</li>
+                                <li>Chatbots</li>                               
+                                <li>User Research</li>
+                                <li>Content Style Guide</li>
+                                <li>User Testing</li>
+                                <li>Design Principles</li>
+                                <li>Prototype</li>                                 
+                            </ul>
+                        </Grid>
+                    </Grid>
+                </Grid>
+                <Grid item xs={12} className={styles.grid}>
+                    <Grid container>
+                        <Grid item md={6}>
+                            <img src={WebCopy} alt="Website copy Writing" />
                         </Grid>
                         <Grid item md={6}>TEXT</Grid>
                     </Grid>
@@ -22,15 +43,7 @@ export const ServicesSection = () => {
                 <Grid item xs={12} className={styles.grid}>
                     <Grid container>
                         <Grid item md={6}>
-                            <img src={WebCopy} alt="Website copy Writing"/>
-                        </Grid>
-                        <Grid item md={6}>TEXT</Grid>
-                    </Grid>
-                </Grid>
-                <Grid item xs={12} className={styles.grid}>
-                    <Grid container>
-                        <Grid item md={6}>
-                            <img src={ContentWrite} alt="Content Writing"/>
+                            <img src={ContentWrite} alt="Content Writing" />
                         </Grid>
                         <Grid item md={6}>TEXT</Grid>
                     </Grid>

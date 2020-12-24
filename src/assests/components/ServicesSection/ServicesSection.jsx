@@ -58,7 +58,20 @@ export const ServicesSection = () => {
                         <Grid item md={6}>
                             <img src={ContentWrite} alt="Content Writing" />
                         </Grid>
-                        <Grid item md={6}>TEXT</Grid>
+                        <Grid item md={6}>
+                            <h2>Content Writing</h2>
+                            <p>Give your business a competitive edge with powerful content that can be targeted to any segment of your audience. No matter how large or complex your project, my custom-built solutions including articles, eDMs, and case studies will help you implement a plan that maximizes your business’s online exposure.</p>
+                            <ul>
+                                <li>Headlines & Taglines</li>
+                                <li>Content Strategy</li>
+                                <li>Blogs & Articles</li>
+                                <li>Social Media Content</li>
+                                <li>Video Scripts</li>
+                                <li>eDMs & Newsletters</li>
+                                <li>Case Studies</li>
+                                <li>Whitepapers</li>
+                            </ul>
+                        </Grid>
                     </Grid>
                 </Grid>
             </Grid>

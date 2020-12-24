@@ -12,13 +12,13 @@ export const MainSection = () => {
     return (
         <div>
             <Grid container>
-                <Grid item md={5} className={styles.gridText}>
+                <Grid item xs={12} md={5} className={styles.gridText}>
                     <h2>CORTEX</h2>
                     <h2>COPYWRITER</h2>
                     <p>Enhance your communications with psychology-based copywriting and UX writing</p>
                     <button>Send message</button>
                 </Grid>
-                <Grid item md={7} className={styles.gridImage}>
+                <Grid item xs={12} md={7} className={styles.gridImage}>
                     <img src={Factory} alt="factory" className="factoryImage"/>
                     <img src={Layer} alt="layer" className={styles.layer}/>
                 </Grid>

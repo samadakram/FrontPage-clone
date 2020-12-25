@@ -10,6 +10,7 @@ import ListItemIcon from '@material-ui/core/ListItemIcon';
 import ListItemText from '@material-ui/core/ListItemText';
 import InboxIcon from '@material-ui/icons/MoveToInbox';
 import MailIcon from '@material-ui/icons/Mail';
+import {motion} from 'framer-motion';
 
 import styles from './NavBar.module.css';
 
@@ -72,9 +73,9 @@ export default function NavBar() {
     <div className={styles.navbar}>
       <Grid container>
         <Grid item xs={8} className={styles.grid1}>
-          <div>
+          <motion.div animate={{fontSize: '30', x: 30}}>
             <Typography className={styles.head} variant="body1">Switch Experience</Typography>
-          </div>
+          </motion.div>
         </Grid>
         <Grid item xs={4} className={styles.grid2}>
           {['☰'].map((anchor) => (

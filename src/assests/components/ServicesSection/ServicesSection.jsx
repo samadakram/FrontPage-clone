@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from './ServicesSection.module.css';
 import { Grid } from '@material-ui/core';
+import { motion } from 'framer-motion';
 
 // Import Images
 import UX from '../../Images/servicesImages/services1.svg';
@@ -14,21 +15,25 @@ export const ServicesSection = () => {
                 <Grid item xs={12} className={styles.grid}>
                     <Grid container>
                         <Grid item xs={12} md={6}>
-                            <img src={UX} alt="UX writing"/>
+                            <motion.div initial={{x: '-90vw'}} animate={{x: 0}}>
+                                <img src={UX} alt="UX writing" />
+                            </motion.div>
                         </Grid>
                         <Grid item xs={12} md={6} className={styles.text}>
-                            <h2>UX Writing</h2>
-                            <p>I develop clear and useful text in product interfaces to help users reach a specific goal, whether that's completing a form or tapping a button. This includes every type of content from on-screen help systems, user onboarding and in-app messages to push notifications and tooltips.</p>
-                            <ul className={styles.list}>
-                                <li>Microcopy</li>
-                                <li>Taxonomy & Labeling</li>
-                                <li>Chatbots</li>
-                                <li>User Research</li>
-                                <li>Content Style Guide</li>
-                                <li>User Testing</li>
-                                <li>Design Principles</li>
-                                <li>Prototype</li>
-                            </ul>
+                            <motion.div initial={{x: '100vw'}} animate={{x: 0}}>
+                                <h2>UX Writing</h2>
+                                <p>I develop clear and useful text in product interfaces to help users reach a specific goal, whether that's completing a form or tapping a button. This includes every type of content from on-screen help systems, user onboarding and in-app messages to push notifications and tooltips.</p>
+                                <ul className={styles.list}>
+                                    <li>Microcopy</li>
+                                    <li>Taxonomy & Labeling</li>
+                                    <li>Chatbots</li>
+                                    <li>User Research</li>
+                                    <li>Content Style Guide</li>
+                                    <li>User Testing</li>
+                                    <li>Design Principles</li>
+                                    <li>Prototype</li>
+                                </ul>
+                            </motion.div>
                         </Grid>
                     </Grid>
                 </Grid>

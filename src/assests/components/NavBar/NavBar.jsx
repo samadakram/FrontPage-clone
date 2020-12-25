@@ -73,7 +73,10 @@ export default function NavBar() {
     <div className={styles.navbar}>
       <Grid container>
         <Grid item xs={8} className={styles.grid1}>
-          <motion.div animate={{fontSize: '30', x: 30}}>
+          <motion.div 
+            initial={{y: -250}}
+            animate={{y: 0}}
+          >
             <Typography className={styles.head} variant="body1">Switch Experience</Typography>
           </motion.div>
         </Grid>

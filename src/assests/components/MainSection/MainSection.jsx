@@ -14,8 +14,8 @@ export const MainSection = () => {
 
     const {ref} = useWebAnimations({
         keyframes: [
-            {transform: 'translateY(-30px)'},
-            {transform: 'translateY(30px)'}
+            {transform: 'translateY(-20px)'},
+            {transform: 'translateY(20px)'}
         ],
         timing: {
             duration: 2000,

@@ -1,6 +1,7 @@
 import React from 'react';
 import { Grid, Typography, Button } from '@material-ui/core';
 import styles from './MainSection.module.css';
+import useWebAnimations from '@wellyshen/use-web-animations';
 
 // Import Images
 import Factory from '../../Images/ImageEmpty.svg';
@@ -10,6 +11,20 @@ import Brain from '../../Images/Brain.svg';
 
 
 export const MainSection = () => {
+
+    const {ref} = useWebAnimations({
+        keyframes: [
+            {transform: 'translateY(-30px)'},
+            {transform: 'translateY(30px)'}
+        ],
+        timing: {
+            duration: 2000,
+            iterations: Infinity,
+            direction: 'alternate',
+            easing: "ease-in-out",
+        }
+    });
+
     return (
         <div className={styles.container}>
             <Grid container className={styles.mainGrid}>
@@ -22,7 +37,7 @@ export const MainSection = () => {
                 <Grid item xs={12} md={7} className={styles.gridImage}>
                     <img src={Factory} alt="factory" className="factoryImage"/>
                     <img src={Layer} alt="layer" className={styles.layer}/>
-                    <img src={Brain} alt="Brain" className={styles.brain}/>
+                    <img ref={ref} src={Brain} alt="Brain" className={styles.brain}/>
                 </Grid>
             </Grid>
         </div>

@@ -12,7 +12,7 @@ import Brain from '../../Images/Brain.svg';
 
 export const MainSection = () => {
 
-    const {ref} = useWebAnimations({
+    const brain = useWebAnimations({
         keyframes: [
             {transform: 'translateY(-20px)'},
             {transform: 'translateY(20px)'}
@@ -37,7 +37,7 @@ export const MainSection = () => {
                 <Grid item xs={12} md={7} className={styles.gridImage}>
                     <img src={Factory} alt="factory" className="factoryImage"/>
                     <img src={Layer} alt="layer" className={styles.layer}/>
-                    <img ref={ref} src={Brain} alt="Brain" className={styles.brain}/>
+                    <img ref={brain.ref} src={Brain} alt="Brain" className={styles.brain}/>
                 </Grid>
             </Grid>
         </div>

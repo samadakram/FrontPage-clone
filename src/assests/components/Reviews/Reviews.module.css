@@ -4,18 +4,16 @@
 }
 
 .reviewDiv {
-    border: 1px solid black;
     width: 400px;
     display: flex;
     flex-direction: row;
 }
 
 .imageGrid {
-    border: 1px solid yellow;
+   
 }
 
 .reviewSec {
-    border: 1px solid blueviolet;
     margin-top: 20px !important;
     display: flex;
     justify-content: center;

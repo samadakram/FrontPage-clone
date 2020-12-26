@@ -7,7 +7,6 @@ import {MainSection} from './assests/components/MainSection/MainSection';
 import {ServicesSection} from './assests/components/ServicesSection/ServicesSection';
 import {SamplesSec} from './assests/components/SamplesSec/SamplesSec';
 import {Reviews} from './assests/components/Reviews/Reviews';
-// import {Email} from './assests/components/Email/Email';
 
 function App () {
   return (
@@ -17,7 +16,6 @@ function App () {
       <ServicesSection />
       <SamplesSec />
       <Reviews />
-      {/* <Email /> */}
     </div>
   )
 }

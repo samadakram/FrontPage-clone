@@ -33,7 +33,7 @@ export const MainSection = () => {
                     <Typography variant="h2">CORTEX</Typography>
                     <Typography variant="h2">COPYWRITER</Typography>
                     <Typography variant="body1">Enhance your communications with psychology-based copywriting and UX writing</Typography>
-                    <motion.span>
+                    <motion.span whileHover={{scale: 1.1}} >
                         <Button variant="contained" className={styles.button}>Send message</Button>
                     </motion.span>
                 </Grid>

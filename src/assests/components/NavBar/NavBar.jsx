@@ -26,9 +26,6 @@ const useStyles = makeStyles({
 export default function NavBar() {
   const classes = useStyles();
   const [state, setState] = React.useState({
-    top: false,
-    left: false,
-    bottom: false,
     right: false,
   });
 

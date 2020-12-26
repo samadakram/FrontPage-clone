@@ -30,7 +30,7 @@ export const Reviews = () => {
                             </motion.div>
                         </Grid>
                         <Grid item xs={12} md={6} className={styles.reviewSec}>
-                            <div className={styles.reviewDiv}>
+                            <motion.div whileHover={{ scale: 1.1 }} className={styles.reviewDiv}>
                                 <div className={styles.imageDiv}>
                                     <img src={Image2} alt="avatar2" className={styles.image} />
                                 </div>
@@ -39,7 +39,7 @@ export const Reviews = () => {
                                     <Typography variant="body2">Digital Marketing Manager – 4mation Technologies</Typography>
                                     <Typography variant="h5">"..flexible"<br />"..nailed voice & tone"<br />"..keep on retainer"</Typography>
                                 </div>
-                            </div>
+                            </motion.div>
                         </Grid>
                     </Grid>
                 </Grid>

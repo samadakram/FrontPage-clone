@@ -76,6 +76,7 @@ export default function NavBar() {
           <motion.div 
             initial={{y: -250}}
             animate={{y: 0}}
+            transition={{delay: 0.2, type: 'tween'}}
           >
             <Typography className={styles.head} variant="body1">Switch Experience</Typography>
           </motion.div>

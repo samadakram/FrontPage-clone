@@ -9,6 +9,7 @@ import Tara from '../../Images/cardImages/tara2.jpg';
 import PureLearning from '../../Images/cardImages/purelearning3.jpg';
 import AdGroove from '../../Images/cardImages/adgroove4.jpg';
 import Sample from '../../Images/cardImages/sample5.jpg';
+import { motion } from 'framer-motion';
 
 export const SamplesSec = () => {
     return (
@@ -21,7 +22,7 @@ export const SamplesSec = () => {
                 <Grid item xs={12}>
                     <Grid container className={styles.uxGrid}>
                         <Grid item xs={12} md={4} className={styles.cardGrid}>
-                            <div>
+                            <motion.div whileHover={{scale: 1.1}}>
                                 <Card className={styles.cards}>
                                     <CardActionArea>
                                         <CardMedia
@@ -46,10 +47,10 @@ export const SamplesSec = () => {
                                     </Button>
                                     </CardActions>
                                 </Card>
-                            </div>
+                            </motion.div>
                         </Grid>
                         <Grid item xs={12} md={4} className={styles.cardGrid}>
-                            <div>
+                            <motion.div whileHover={{scale: 1.1}}>
                                 <Card className={styles.cards}>
                                     <CardActionArea>
                                         <CardMedia
@@ -74,10 +75,10 @@ export const SamplesSec = () => {
                                     </Button>
                                     </CardActions>
                                 </Card>
-                            </div>
+                            </motion.div>
                         </Grid>
                         <Grid item xs={12} md={4} className={styles.cardGrid}>
-                            <div>
+                            <motion.div whileHover={{scale: 1.1}}>
                                 <Card className={styles.cards}>
                                     <CardActionArea>
                                         <CardMedia
@@ -102,7 +103,7 @@ export const SamplesSec = () => {
                                     </Button>
                                     </CardActions>
                                 </Card>
-                            </div>
+                            </motion.div>
                         </Grid>
                     </Grid>
                 </Grid>
@@ -112,7 +113,7 @@ export const SamplesSec = () => {
                 <Grid item xs={12}>
                     <Grid container className={styles.uxGrid}>
                         <Grid item xs={12} sm={6} md={4} className={styles.cardGrid}>
-                            <div>
+                            <motion.div whileHover={{scale: 1.1}}>
                                 <Card className={styles.cards}>
                                     <CardActionArea>
                                         <CardMedia
@@ -137,10 +138,10 @@ export const SamplesSec = () => {
                                     </Button>
                                     </CardActions>
                                 </Card>
-                            </div>
+                            </motion.div>
                         </Grid>
                         <Grid item xs={12} sm={6} md={4} className={styles.cardGrid}>
-                            <div>
+                            <motion.div whileHover={{scale: 1.1}}>
                                 <Card className={styles.cards}>
                                     <CardActionArea>
                                         <CardMedia
@@ -165,10 +166,10 @@ export const SamplesSec = () => {
                                     </Button>
                                     </CardActions>
                                 </Card>
-                            </div>
+                            </motion.div>
                         </Grid>
                         <Grid item xs={12} sm={6} md={4} className={styles.cardGrid}>
-                            <div>
+                            <motion.div whileHover={{scale: 1.1}}>
                                 <Card className={styles.cards}>
                                     <CardActionArea>
                                         <CardMedia
@@ -193,10 +194,10 @@ export const SamplesSec = () => {
                                     </Button>
                                     </CardActions>
                                 </Card>
-                            </div>
+                            </motion.div>
                         </Grid>
                         <Grid item xs={12} sm={6} md={6} className={styles.cardGrid}>
-                            <div>
+                            <motion.div whileHover={{scale: 1.1}}>
                                 <Card className={styles.cards}>
                                     <CardActionArea>
                                         <CardMedia
@@ -221,10 +222,10 @@ export const SamplesSec = () => {
                                     </Button>
                                     </CardActions>
                                 </Card>
-                            </div>
+                            </motion.div>
                         </Grid>
                         <Grid item xs={12} sm={12} md={6} className={styles.cardGrid}>
-                            <div>
+                            <motion.div whileHover={{scale: 1.1}}>
                                 <Card className={styles.cards}>
                                     <CardActionArea>
                                         <CardMedia
@@ -249,7 +250,7 @@ export const SamplesSec = () => {
                                     </Button>
                                     </CardActions>
                                 </Card>
-                            </div>
+                            </motion.div>
                         </Grid>
                     </Grid>
                 </Grid>

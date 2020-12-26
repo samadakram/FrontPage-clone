@@ -46,7 +46,7 @@ export const Reviews = () => {
                 <Grid item xs={12}>
                     <Grid container className={styles.imageGrid}>
                         <Grid item xs={12} md={6} className={styles.reviewSec}>
-                            <div className={styles.reviewDiv}>
+                            <motion.div whileHover={{ scale: 1.1 }} className={styles.reviewDiv}>
                                 <div className={styles.imageDiv}>
                                     <img src={Image3} alt="avatar3" className={styles.image} />
                                 </div>
@@ -55,7 +55,7 @@ export const Reviews = () => {
                                     <Typography variant="body2">CEO – Erskine Oral Care</Typography>
                                     <Typography variant="h5">"..wonderful ideas"<br />"..perfect tagline"<br />"..excellent wireframes"</Typography>
                                 </div>
-                            </div>
+                            </motion.div>
                         </Grid>
                         <Grid item xs={12} md={6} className={styles.reviewSec}>
                             <div className={styles.reviewDiv}>

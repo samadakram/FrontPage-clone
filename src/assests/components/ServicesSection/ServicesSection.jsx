@@ -15,7 +15,7 @@ export const ServicesSection = () => {
                 <Grid item xs={12} className={styles.grid}>
                     <Grid container>
                         <Grid item xs={12} md={6}>
-                            <motion.div initial={{ x: '-90vw' }} animate={{ x: 0 }} transition={{duration: 1}}>
+                            <motion.div initial={{ x: '-100vw' }} animate={{ x: 0 }} transition={{duration: 1}}>
                                 <img src={UX} alt="UX writing" />
                             </motion.div>
                         </Grid>

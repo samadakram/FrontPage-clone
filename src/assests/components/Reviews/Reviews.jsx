@@ -86,7 +86,7 @@ export const Reviews = () => {
                             </motion.div>
                         </Grid>
                         <Grid item xs={12} md={6} className={styles.reviewSec}>
-                            <div className={styles.reviewDiv}>
+                            <motion.div whileHover={{ scale: 1.1 }} className={styles.reviewDiv}>
                                 <div className={styles.imageDiv}>
                                     <img src={Image6} alt="avatar6" className={styles.image} />
                                 </div>
@@ -95,7 +95,7 @@ export const Reviews = () => {
                                     <Typography variant="body2">eCommerce Manager – EUX Agency</Typography>
                                     <Typography variant="h5">"..superior intellect"<br />"..deep psychology"<br />"..doubled conversions"</Typography>
                                 </div>
-                            </div>
+                            </motion.div>
                         </Grid>
                     </Grid>
                 </Grid>

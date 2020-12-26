@@ -7,7 +7,6 @@
 }
 
 .gridText {
-    border: 1px solid yellow;
     color: white;
     padding-left: 50px;
     display: flex;
@@ -16,7 +15,6 @@
 }
 
 .gridImage {
-    border: 1px solid brown;
     position: relative;
 }
 

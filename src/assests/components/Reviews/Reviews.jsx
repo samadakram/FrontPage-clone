@@ -18,7 +18,11 @@ export const Reviews = () => {
                 <Grid item xs={12}>
                     <Grid container className={styles.imageGrid}>
                         <Grid item xs={12} md={6} className={styles.reviewSec}>
-                            <motion.div whileHover={{ scale: 1.1 }} className={styles.reviewDiv}>
+                            <motion.div
+                                whileHover={{ scale: 1.1 }}
+                                className={styles.reviewDiv}
+                                initial={{ x: '-100vw' }} animate={{ x: 0 }} transition={{ duration: 1 }}
+                            >
                                 <div className={styles.imageDiv}>
                                     <img src={Image1} alt="avatar1" className={styles.image} />
                                 </div>
@@ -30,7 +34,11 @@ export const Reviews = () => {
                             </motion.div>
                         </Grid>
                         <Grid item xs={12} md={6} className={styles.reviewSec}>
-                            <motion.div whileHover={{ scale: 1.1 }} className={styles.reviewDiv}>
+                            <motion.div
+                                whileHover={{ scale: 1.1 }}
+                                className={styles.reviewDiv}
+                                initial={{ x: '100vw' }} animate={{ x: 0 }} transition={{ duration: 1 }}
+                            >
                                 <div className={styles.imageDiv}>
                                     <img src={Image2} alt="avatar2" className={styles.image} />
                                 </div>
@@ -46,7 +54,11 @@ export const Reviews = () => {
                 <Grid item xs={12}>
                     <Grid container className={styles.imageGrid}>
                         <Grid item xs={12} md={6} className={styles.reviewSec}>
-                            <motion.div whileHover={{ scale: 1.1 }} className={styles.reviewDiv}>
+                            <motion.div
+                                whileHover={{ scale: 1.1 }}
+                                className={styles.reviewDiv}
+                                initial={{ x: '-100vw' }} animate={{ x: 0 }} transition={{ duration: 1 }}
+                            >
                                 <div className={styles.imageDiv}>
                                     <img src={Image3} alt="avatar3" className={styles.image} />
                                 </div>
@@ -58,7 +70,11 @@ export const Reviews = () => {
                             </motion.div>
                         </Grid>
                         <Grid item xs={12} md={6} className={styles.reviewSec}>
-                            <motion.div whileHover={{ scale: 1.1 }} className={styles.reviewDiv}>
+                            <motion.div
+                                whileHover={{ scale: 1.1 }}
+                                className={styles.reviewDiv}
+                                initial={{ x: '100vw' }} animate={{ x: 0 }} transition={{ duration: 1 }}
+                            >
                                 <div className={styles.imageDiv}>
                                     <img src={Image4} alt="avatar4" className={styles.image} />
                                 </div>
@@ -74,7 +90,11 @@ export const Reviews = () => {
                 <Grid item xs={12}>
                     <Grid container className={styles.imageGrid}>
                         <Grid item xs={12} md={6} className={styles.reviewSec}>
-                            <motion.div whileHover={{ scale: 1.1 }} className={styles.reviewDiv}>
+                            <motion.div
+                                whileHover={{ scale: 1.1 }}
+                                className={styles.reviewDiv}
+                                initial={{ x: '-100vw' }} animate={{ x: 0 }} transition={{ duration: 1 }}
+                            >
                                 <div className={styles.imageDiv}>
                                     <img src={Image5} alt="avatar5" className={styles.image} />
                                 </div>
@@ -86,7 +106,11 @@ export const Reviews = () => {
                             </motion.div>
                         </Grid>
                         <Grid item xs={12} md={6} className={styles.reviewSec}>
-                            <motion.div whileHover={{ scale: 1.1 }} className={styles.reviewDiv}>
+                            <motion.div
+                                whileHover={{ scale: 1.1 }}
+                                className={styles.reviewDiv}
+                                initial={{ x: '100vw' }} animate={{ x: 0 }} transition={{ duration: 1 }}
+                            >
                                 <div className={styles.imageDiv}>
                                     <img src={Image6} alt="avatar6" className={styles.image} />
                                 </div>

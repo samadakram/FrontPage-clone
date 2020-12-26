@@ -22,7 +22,7 @@ export const SamplesSec = () => {
                 <Grid item xs={12}>
                     <Grid container className={styles.uxGrid}>
                         <Grid item xs={12} md={4} className={styles.cardGrid}>
-                            <motion.div whileHover={{scale: 1.1}}>
+                            <motion.div whileHover={{ scale: 1.1 }}>
                                 <Card className={styles.cards}>
                                     <CardActionArea>
                                         <CardMedia
@@ -50,7 +50,7 @@ export const SamplesSec = () => {
                             </motion.div>
                         </Grid>
                         <Grid item xs={12} md={4} className={styles.cardGrid}>
-                            <motion.div whileHover={{scale: 1.1}}>
+                            <motion.div whileHover={{ scale: 1.1 }}>
                                 <Card className={styles.cards}>
                                     <CardActionArea>
                                         <CardMedia
@@ -78,7 +78,7 @@ export const SamplesSec = () => {
                             </motion.div>
                         </Grid>
                         <Grid item xs={12} md={4} className={styles.cardGrid}>
-                            <motion.div whileHover={{scale: 1.1}}>
+                            <motion.div whileHover={{ scale: 1.1 }}>
                                 <Card className={styles.cards}>
                                     <CardActionArea>
                                         <CardMedia
@@ -113,7 +113,7 @@ export const SamplesSec = () => {
                 <Grid item xs={12}>
                     <Grid container className={styles.uxGrid}>
                         <Grid item xs={12} sm={6} md={4} className={styles.cardGrid}>
-                            <motion.div whileHover={{scale: 1.1}}>
+                            <motion.div whileHover={{ scale: 1.1 }}>
                                 <Card className={styles.cards}>
                                     <CardActionArea>
                                         <CardMedia
@@ -141,7 +141,7 @@ export const SamplesSec = () => {
                             </motion.div>
                         </Grid>
                         <Grid item xs={12} sm={6} md={4} className={styles.cardGrid}>
-                            <motion.div whileHover={{scale: 1.1}}>
+                            <motion.div whileHover={{ scale: 1.1 }}>
                                 <Card className={styles.cards}>
                                     <CardActionArea>
                                         <CardMedia
@@ -169,7 +169,7 @@ export const SamplesSec = () => {
                             </motion.div>
                         </Grid>
                         <Grid item xs={12} sm={6} md={4} className={styles.cardGrid}>
-                            <motion.div whileHover={{scale: 1.1}}>
+                            <motion.div whileHover={{ scale: 1.1 }}>
                                 <Card className={styles.cards}>
                                     <CardActionArea>
                                         <CardMedia
@@ -197,7 +197,7 @@ export const SamplesSec = () => {
                             </motion.div>
                         </Grid>
                         <Grid item xs={12} sm={6} md={6} className={styles.cardGrid}>
-                            <motion.div whileHover={{scale: 1.1}}>
+                            <motion.div whileHover={{ scale: 1.1 }}>
                                 <Card className={styles.cards}>
                                     <CardActionArea>
                                         <CardMedia
@@ -225,7 +225,7 @@ export const SamplesSec = () => {
                             </motion.div>
                         </Grid>
                         <Grid item xs={12} sm={12} md={6} className={styles.cardGrid}>
-                            <motion.div whileHover={{scale: 1.1}}>
+                            <motion.div whileHover={{ scale: 1.1 }}>
                                 <Card className={styles.cards}>
                                     <CardActionArea>
                                         <CardMedia
